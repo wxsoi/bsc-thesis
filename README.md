@@ -4,12 +4,13 @@ This thesis uses the DEPAR dataset provided by CICERO to determine the best pred
 
 ## File Structure
 
-This repository has multiple files, with their respective descriptions below:
+This repository has multiple files, the list below has their respective descriptions:
 - `find_correlation_and_threshold.py`: A Python file that preprocesses the data by encoding the categorical values, finding the correlations, and generating CSV files of columns and their values that meet the requirement for the thresholds
 - `imputation.r`: An R file that uses MICE with PMM to impute the missing data, then generates a CSV file of a joined dataset containing multiple imputed datasets with no missing values
 - `evaluation.py`: A Python file that evaluates the performance of the imputation by calculating the metrics and generating density plots
 - `correlation.csv`: A CSV file generated from `find_correlation_and_threshold.py` containing the correlations of all the target columns and the predictor columns
 - `comparison.csv`: A CSV file generated from `evaluation.py` containing the metrics of the imputations
+- `columns.csv`: A CSV file containing the descriptions of the columns, along with thier number of missing rows, percentage of missing data, and type of value
 
 ## Instructions
 
