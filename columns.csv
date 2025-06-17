@@ -1,0 +1,50 @@
+Column,Description,Number of Missing Rows,Percentage of Missing Data,Type of values contained
+respondentid,ID of the respondent,0,0.00%,Categorical
+mm,The months since their last response,0,0.00%,Categorical
+haqtot,Score calculation from questionnaire HAQ,524,12.80%,Numerical
+sf36pf_a,SF-36 physical functioning,511,12.50%,Numerical
+sf36rp_a,SF-36 role limitations due to physical health,511,12.50%,Numerical
+sf36bp_a,SF-36 bodily pain,511,12.50%,Numerical
+sf36gh_a,SF-36 general health,511,12.50%,Numerical
+sf36vi_a,SF-36 vitality,1280,31.20%,Numerical
+sf36sf_a,SF-36 social functioning,1280,31.20%,Numerical
+sf36re_a,SF-36 role limitations due to emotional problems,1280,31.20%,Numerical
+sf36mh_a,SF-36 mental health,1280,31.20%,Numerical
+mda,Disease activity composite scores (calculated from the presense of 7 criterias) ,575,14.00%,Binary
+poptjc,Tender joint count ,145,3.50%,Numerical
+popsjc,Swollen joint count,145,3.50%,Numerical
+dapsa,Disease activity composite scores (calculated from an equation combining multiple metrics),1084,26.40%,Numerical
+pasdas,Disease activity composite scores (calculated from an equation combining multiple metrics),1743,42.50%,Numerical
+pl61_T0,Waist circumference ,37,0.90%,Numerical
+bmi_T0,BMI,28,0.70%,Numerical
+fa20_T0,Alcohol consumption frequency,487,11.90%,Categorical
+fa21_T0,Alcohol consumption amount in glasses per session,1222,29.80%,Categorical
+fa22_T0,Frequency of more than 6 glasses per session,1222,29.80%,Categorical
+pm86b_T0,Number of months with complaints,50,1.20%,Numerical
+pm83b_T0,Number of months with psoriasis,395,9.60%,Numerical
+Geslacht_T0,Gender,6,0.10%,Categorical
+age_T0,Age,6,0.10%,Numerical
+diagnose_T0,Diagnosis category,80,1.90%,Numerical
+fa04_T0,Country of birth of the father,492,12.00%,Categorical
+fa12_T0,Daytime education in years since the age of 6,487,11.90%,Numerical
+fa15_T0,Is a smoker?,487,11.90%,Categorical
+fa16_T0,Has smoked in the past?,1274,31.00%,Categorical
+fa19a_T0,Cigarettes smoked per day,1751,42.70%,Numerical
+pm112_T0,Days with more than 30 minutes of exercise,50,1.20%,Categorical
+csdmard_cov,Type of medication used,129,3.10%,Binary
+glucocorticoids_cov,Type of medication used,129,3.10%,Binary
+mtx_cov,Type of medication used,129,3.10%,Binary
+nodmards_cov,Type of medication used,129,3.10%,Binary
+gp01,PsAID pain,1387,33.80%,Categorical
+gp02,PsAID fatigue,1387,33.80%,Categorical
+gp03,PsAID skin,1387,33.80%,Categorical
+gp04,PsAID work and/or leisure activities,1387,33.80%,Categorical
+gp05,PsAID function,1387,33.80%,Categorical
+gp06,PsAID discomfort,1387,33.80%,Categorical
+gp07,PsAID sleep,1387,33.80%,Categorical
+gp08,PsAID coping,1387,33.80%,Categorical
+gp09,PsAID anxiety,1387,33.80%,Categorical
+gp10,PsAID embarassment,1387,33.80%,Categorical
+gp11,PsAID social life,1387,33.80%,Categorical
+gp12,PsAID depression,1387,33.80%,Categorical
+biological_tsdmards_cov,Type of medication used,129,3.10%,Binary
