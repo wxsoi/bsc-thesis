@@ -48,7 +48,7 @@ categorical_columns = ['fa20_T0', 'fa21_T0', 'fa22_T0', 'Geslacht_T0', 'fa04_T0'
                           'fa15_T0', 'fa16_T0', 'pm112_T0', 'gp01', 'gp02', 'gp03', 'gp04',
                           'gp05', 'gp06', 'gp07', 'gp08', 'gp09', 'gp10', 'gp11', 'gp12']
 
-file_path = "redacted"
+file_path = "file path of the dataset"
 df = pd.read_stata(file_path)
 
 # one hot encodes columns with categorical values
