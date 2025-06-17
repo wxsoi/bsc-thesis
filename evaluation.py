@@ -3,7 +3,7 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-file_path = "redacted"
+file_path = "file path of the dataset"
 full = pd.read_stata(file_path)
 folder_path = 'imputed/'
 summary_list = []
